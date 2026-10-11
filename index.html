@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">Shashank<span></span></a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tag">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Shashank</span></h1>
+            <h2>Aspiring Frontend Developer</h2>
+            <p>
+                I build responsive and user-friendly websites using
+                HTML, CSS and JavaScript. I am looking for an opportunity
+                to learn, grow and contribute as a frontend development intern.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Explore Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+            <p class="availability">● Open to Frontend Developer Internships</p>
+        </div>
+
+        <div class="hero-card">
+            <div class="avatar">S</div>
+            <h3>Shashank</h3>
+            <p>Frontend Developer</p>
+            <div class="mini-skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <p class="tag">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card">
+            <p>
+                I am a B.Tech student specializing in Artificial Intelligence
+                and Data Science, interested in frontend development and web
+                technologies. I enjoy creating websites that are simple,
+                attractive and easy to use.
+            </p>
+            <p>
+                Through personal and practice projects, I am developing my
+                skills in responsive design, JavaScript, problem-solving,
+                and GitHub. My goal is to gain practical experience through
+                a frontend development internship.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <p class="tag">WHAT I WORK WITH</p>
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill">🌐 HTML5</div>
+            <div class="skill">🎨 CSS3</div>
+            <div class="skill">⚡ JavaScript</div>
+            <div class="skill">📱 Responsive Design</div>
+            <div class="skill">🔧 Git & GitHub</div>
+            <div class="skill">💻 VS Code</div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <p class="tag">MY WORK</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">
+            A selection of projects and prototypes I have worked on.
+        </p>
+
+        <div class="filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="web">Web Development</button>
+            <button class="filter" data-filter="javascript">JavaScript</button>
+            <button class="filter" data-filter="prototype">Prototype</button>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card" data-category="prototype">
+                <div class="project-icon">🤝</div>
+                <h3>SAHAY 360</h3>
+                <p>
+                    A victim-support prototype concept exploring stress
+                    assessment, safe signals, calming activities and
+                    support resources.
+                </p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a href="https://shashankshasi42-svg.github.io/stress-trauma/"
+                   target="_blank" rel="noopener noreferrer" class="project-link">
+                    View Project ↗
+                </a>
+            </article>
+
+            <article class="project-card" data-category="javascript">
+                <div class="project-icon">🖼️</div>
+                <h3>Interactive Image Gallery</h3>
+                <p>
+                    An image gallery featuring image viewing, navigation
+                    and interactive controls.
+                </p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a href="#contact" class="project-link">Add Demo Link ↗</a>
+            </article>
+
+            <article class="project-card" data-category="javascript">
+                <div class="project-icon">🎵</div>
+                <h3>Music Player</h3>
+                <p>
+                    A browser-based music player with playlist controls,
+                    playback, progress tracking and volume adjustment.
+                </p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a href="#contact" class="project-link">Add Demo Link ↗</a>
+            </article>
+
+            <article class="project-card" data-category="javascript">
+                <div class="project-icon">🧮</div>
+                <h3>JavaScript Calculator</h3>
+                <p>
+                    A calculator project for practicing arithmetic,
+                    JavaScript logic and event handling.
+                </p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a href="#contact" class="project-link">Add Demo Link ↗</a>
+            </article>
+
+            <article class="project-card" data-category="javascript">
+                <div class="project-icon">📋</div>
+                <h3>CRUD Application</h3>
+                <p>
+                    A practice project focused on creating, viewing,
+                    updating and deleting records.
+                </p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a href="#contact" class="project-link">Add Demo Link ↗</a>
+            </article>
+
+            <article class="project-card" data-category="web">
+                <div class="project-icon">🛍️</div>
+                <h3>E-commerce Website</h3>
+                <p>
+                    A shopping website project focused on product
+                    presentation, navigation and responsive layouts.
+                </p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <a href="#contact" class="project-link">Add Demo Link ↗</a>
+            </article>
+        </div>
+        <p class="note">
+            Replace “Add Demo Link” with your real project URLs when available.
+        </p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <p class="tag">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p>
+            I am interested in frontend development internship opportunities.
+            Feel free to contact me.
+        </p>
+
+        <div class="contact-links">
+            <a href="mailto:YOUR_EMAIL@example.com" class="btn">Email Me</a>
+            <a href="https://github.com/YOUR_GITHUB_USERNAME"
+               target="_blank" rel="noopener noreferrer" class="btn secondary">
+                GitHub Profile
+            </a>
+        </div>
+        <p class="note">Remember to replace the placeholder email and GitHub username.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Shashank Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
